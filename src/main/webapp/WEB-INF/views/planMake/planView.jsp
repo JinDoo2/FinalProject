@@ -1637,7 +1637,7 @@ function closeNav() {
 								</div>
 								<div class="plan_daily_spot">
 									<div class="plan_daily_spot_img">
-										<img src="${pageContext.request.contextPath}/resources/img/plan/backpacker-running.png">
+										<img src="${pageContext.request.contextPath}/resources/fileimg/${spot_list.spot_img}">
 									</div>
 									<div class="plan_daily_spot_box">
 										<div  class="plan_daily_spot_content">

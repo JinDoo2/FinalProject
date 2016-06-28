@@ -118,10 +118,10 @@ public class PlanController {
 		
 		System.out.println("길이"+ar.size());
 		
-		/*List<CityDTO> city_list = planService.s_city_list_all();*/
+		List<CityDTO> city_list = planService.s_city_list_all();
 		
 		model.addAttribute("plan_list2", ar);
-		/*model.addAttribute("city_list",city_list);*/
+		model.addAttribute("city_list",city_list);
 		
 		
 		
@@ -159,7 +159,7 @@ public class PlanController {
 			List<CityDTO> city_list = planService.s_city_list_all();
 			
 			model.addAttribute("plan_list2", ar);
-			/*model.addAttribute("city_list2",city_list);*/
+			model.addAttribute("city_list",city_list);
 			/*model.addAttribute("page", planMakePage);
 			model.addAttribute("totalList", totalList);*/
 			
@@ -196,7 +196,6 @@ public class PlanController {
 		
 		
 		List<CityDTO> city_list = planService.s_city_list_all();
-		
 		model.addAttribute("plan_list", ar);
 		model.addAttribute("city_list",city_list);
 		model.addAttribute("page", planMakePage);

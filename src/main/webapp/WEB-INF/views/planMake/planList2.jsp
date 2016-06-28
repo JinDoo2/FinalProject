@@ -184,7 +184,7 @@ white-space:nowrap;
 </style>
 <script type="text/javascript">
 $(function() {
-		for(var i=1;i<$("#plan_list2_size").val();i++){
+		for(var i=1;i<$("#total_List").val();i++){
 			$("."+(i*3)).css("margin-right","0px");
 			
 		}
@@ -201,7 +201,7 @@ $(function() {
 		 				</div>
 	 				</div>
 		 			<div class="plan_list_bg">
-		 				<img src="${pageContext.request.contextPath}/resources/img/mypage/photo1.jpg">
+		 				<img src="${pageContext.request.contextPath}/resources/img/city/cityIMG/${city_list[planList.city_no].city_img1}">
 		 			</div>
 		 			<div class="plan_list_ex">
 		 				<span>

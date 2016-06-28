@@ -635,7 +635,7 @@ white-space:nowrap;
 		 				</div>
 	 				</div>
 		 			<div class="plan_list_bg">
-		 				<img src="${pageContext.request.contextPath}/resources/img/mypage/photo1.jpg">
+		 				<img src="${pageContext.request.contextPath}/resources/img/city/cityIMG/${city_list[planList.city_no].city_img1}">
 		 				
 		 			</div>
 		 			<div class="plan_list_ex">
@@ -682,8 +682,7 @@ white-space:nowrap;
 	 					</div>
 	 				</div>
 		 			<div class="plan_list_bg">
-		 				<img src="${pageContext.request.contextPath}/resources/img/mypage/photo1.jpg">
-		 				
+						<img src="${pageContext.request.contextPath}/resources/img/city/cityIMG/${city_list[planList.city_no].city_img1}">		 				
 		 			</div>
 		 			<div class="plan_list_ex">
 		 				<span>

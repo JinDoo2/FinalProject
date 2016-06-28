@@ -64,7 +64,7 @@
 					<div class="spot_list_inner">
 						<div class="spot_list_inner_box">
 							<div class="spot_list_inner_img">
-								<img src="${pageContext.request.contextPath}/resources/img/plan/backpacker-running.png">
+								<img src="${pageContext.request.contextPath}/resources/fileimg/${spot_list_spot_img}">
 							</div>
 							<div class="spot_list_inner_name">
 								<div class="spot_inner_kname">
